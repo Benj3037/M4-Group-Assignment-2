@@ -14,22 +14,15 @@ The dataset used for this project is various GIF's and its description with 125k
 
 2. **Feature Engineering**: Conduct any necessary feature transformations or creations.
 
-3. **Standard ML Preprocessing**: Performing standard preprocessing steps such as MinMax Scaling for the dataset.
+3. **Modelling/Embedding**: Load the CLIP model and make embeddings on the dataset.
 
-4. **Train-Test Split**: Split the dataset into training and testing sets.
-
-5. **Defining Neural Network Architecture**: Design the neural network architecture using PyTorch.
-
-6. **Defining Training Loop**: Set up the training loop for the model.
-
-7. **Training the Model**: Train the neural network on the training data.
-
-8. **Experimenting with Hyperparameters**: Experiment with  5 different variations of hyperparameters including number of layers/neurons, activation functions, epochs, optimizers, and learning rates.
-
-9. **Evaluating the Final Model**: Evaluate the final model on the test data to assess its performance.
+4. **Defining the semantic search function**: search function to return GIF url, description and cosinus score
+   
+5. **Make Application**: Making an application with the Gradio interface.
 
 ### Results
 
+A functional Gradio application that gives the approapriate GIF to the text that you write.
 
 ## Part 2 Gradient Descent and Attention Mechanism Exercises
 
@@ -38,24 +31,19 @@ The dataset used for this project is various GIF's and its description with 125k
 
 2. Attention Mechanism Exercise: Implement the attention mechanism on two distinct sentences. Choose sentences with polysmous words to demonstrate its functionality effectively.
 ### Dataset
+The two distinct sentences presented are:
+sentence1 = "She saw a bat flying in the night sky"
+sentence2 = "He used a bat to hit the baseball during the game"
 
 ### Approach
-1. **Feature Selection**: Identify relevant features.
+1. **Load Model**: Using SBERT to solve this task
+   
+3. **Embedding**: Compute embedding and encoding the sentences
+   
+5. **Compute attention scores and context vector**
+  
+7. **Evaulating**: Plotting a heatmap and evaulating the score
 
-2. **Feature Engineering**: Conduct any necessary feature transformations or creations.
-
-3. **Standard ML Preprocessing**: Performing standard preprocessing steps such as MinMax Scaling for the dataset.
-
-4. **Train-Test Split**: Split the dataset into training and testing sets.
-
-5. **Defining Neural Network Architecture**: Design the neural network architecture using PyTorch.
-
-6. **Defining Training Loop**: Set up the training loop for the model.
-
-7. **Training the Model**: Train the neural network on the training data.
-
-8. **Experimenting with Hyperparameters**: Experiment with  5 different variations of hyperparameters including number of layers/neurons, activation functions, epochs, optimizers, and learning rates.
-
-9. **Evaluating the Final Model**: Evaluate the final model on the test data to assess its performance.
-
+### Results
+We see that the model finds a strong correlation between the words 'bat' and 'baseball' in sentence 2, where it struggles a bit more in sentence 1. Here the strongest corralations with the word 'bat' is in the words 'sky' and 'she'. So the model misunderstands the context a bit in sentence 1.
 
