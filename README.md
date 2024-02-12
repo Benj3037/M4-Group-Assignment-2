@@ -30,7 +30,7 @@ A functional Gradio application that gives the approapriate GIF to the text that
 1. Gradient Descent Exercise: Execute the process of updating weights for two examples using Stochastic Gradient Descent (SGD). Document each step, including input calculation, prediction, loss assessment, weight adjustments, and updates.
 
 2. Attention Mechanism Exercise: Implement the attention mechanism on two distinct sentences. Choose sentences with polysmous words to demonstrate its functionality effectively.
-### Dataset
+### Data
 The two distinct sentences presented are:
 sentence1 = "She saw a bat flying in the night sky"
 sentence2 = "He used a bat to hit the baseball during the game"
