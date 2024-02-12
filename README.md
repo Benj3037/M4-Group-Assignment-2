@@ -7,7 +7,7 @@ Created by Benjamin, Camilla and Tobias
 Create something innovative using SBERT and semantic search
 
 ### Dataset
-The dataset used for this project is various GIF's and its description with 125k datapoints. Can be found [here](https://github.com/raingo/TGIF-Release/archive/master.zip)
+The dataset used for this project is various GIF's and its description with 125k datapoints. Can be found [here.](https://github.com/raingo/TGIF-Release/archive/master.zip)
 
 ### Approach
 1. **Feature Selection**: Identify relevant features.
