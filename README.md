@@ -1,5 +1,5 @@
 # M4-Group-Assignment-2
-Submitted on the 14/02/2024
+Submitted the 14/02/2024
 
 Created by Benjamin, Camilla and Tobias
 
