@@ -7,7 +7,7 @@ Created by Benjamin, Camilla and Tobias
 Create something innovative using SBERT and semantic search
 
 ### Dataset
-The dataset used for this project is various GIF's and its description with 125k datapoints. Can be found here: https://github.com/raingo/TGIF-Release/archive/master.zip
+The dataset used for this project is various GIF's and its description with 125k datapoints. Can be found [here](https://github.com/raingo/TGIF-Release/archive/master.zip)
 
 ### Approach
 1. **Feature Selection**: Identify relevant features.
@@ -22,7 +22,7 @@ The dataset used for this project is various GIF's and its description with 125k
 
 ### Results
 
-A functional Gradio application that gives the approapriate GIF to the text that you write.
+A functional Gradio application that gives the approapriate GIF to the text that you write. The app can be seen ![here.]()
 
 ## Part 2 Gradient Descent and Attention Mechanism Exercises
 
