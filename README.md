@@ -14,7 +14,7 @@ The dataset used for this project is various GIF's and its description with 125k
 ### Approach
 1. **Feature Selection**: Identify relevant features.
 
-2. **Feature Engineering**: Conduct any necessary feature transformations or creations.
+2. **Feature Engineering**: Conduct any necessary feature transformations. Reducing Dataset to 20k data rows.
 
 3. **Modelling/Embedding**: Load the CLIP model and make embeddings on the dataset.
 
