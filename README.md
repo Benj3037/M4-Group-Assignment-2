@@ -1,7 +1,7 @@
 # M4-Group-Assignment-2
 Submitted: 14/02/2024
 
-Created by Benjamin, Camilla and Tobias
+Created by Benjamin, Camilla and Tobias.
 
 ## Part 1 Semantic search using Text and GIFs
 
