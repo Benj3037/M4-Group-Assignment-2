@@ -24,7 +24,7 @@ The dataset used for this project is various GIF's and its description with 125k
 
 ### Results
 
-A functional Gradio application that gives the approapriate GIF to the text that you write. The app can be seen ![here.]()
+A functional Gradio application that gives the approapriate GIF to the text that you write. The app can be seen [here.](https://6dfc4a400a4e616c4a.gradio.live/)
 
 
 ## Part 2 Gradient Descent and Attention Mechanism Exercises
